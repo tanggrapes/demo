@@ -54,7 +54,7 @@ public class MemberDetailRestController {
 
     private MemberDetailsResponseModel memberDetailsModel = new MemberDetailsResponseModel();
 
-    // init
+    //init model
     public MemberDetailRestController() {
         memberDetailsModel.setEventId("R000000037");
         memberDetailsModel.setMemberName("Test Standard");
